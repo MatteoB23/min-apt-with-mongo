@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pdIvcpfRYd+1aAahyL351bwFeuTYzSRJhDMvm+bAIArdVNm4FJ8HQAS/HiQ4mxmy76XuOfrN5vkyXrcINpEapg==",
+  "dgSpecHash": "Os0paKFX9CUoCiCkbAamDkZKqBvcRAzWqdhr1vJ2ix+OG8JKJA2gRemAhQifB1+eKqalX6TVMXOWpXWcqKju8A==",
   "success": true,
   "projectFilePath": "/home/vmadmin/min-apt-with-mongo/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
