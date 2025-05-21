@@ -31,12 +31,12 @@ app.MapGet("/check", (Microsoft.Extensions.Options.IOptions<DatabaseSettings> op
 
 app.MapPost("/api/movies", (Movie movie) =>
 {
-    throw new NotImplementedException();
+    return Results.Ok(movie);
 });
 
 app.MapGet("api/movies", () =>
 {
-    return true;
+    return Results.Ok("Test erfolgreich");
 });
 
 app.MapGet("api/movies/{id}", (string id) =>
@@ -63,7 +63,7 @@ app.MapPut("/api/movies/{id}", (string id, Movie movie) =>
 
 app.MapDelete("api/movies/{id}", (string id) =>
 {
-    throw new NotImplementedException();
+    return Results.Ok(id);
 });
 
 app.Run();
